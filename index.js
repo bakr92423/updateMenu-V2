@@ -53,7 +53,7 @@ mongoose.connect(URL).then(()=>{
  })
 
 
- app.listen(process.env.PORT||5000,(req,res)=>{
+ app.listen(5000 || process.env.PORT,(req,res)=>{
 
     console.log('the server starting');
     
